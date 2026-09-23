@@ -4,6 +4,8 @@
 
 ### Вивід команди `git config --list --global`
 
+![Вивід git config --list --global](assets/git-config.png)
+
 ```text
 user.name=Mariya Strynadko
 user.email=strynadkomasha02.03@gmail.com
@@ -39,6 +41,8 @@ $ node -v
 v22.12.0
 ```
 
+![Node.js fnm](assets/fnm-node.png)
+
 Python (uv):
 
 ```text
@@ -46,12 +50,16 @@ $ python3 --version
 Python 3.12.8
 ```
 
+![Python uv](assets/uv-python.png)
+
 Docker Compose:
 
 ```text
 $ docker compose version
 Docker Compose version v5.5.1
 ```
+
+![Docker Compose](assets/docker-compose.png)
 
 **Навіщо менеджер версій, коли проєктів більше одного?**
 Різні проєкти потребують різних версій мов та пакетів (наприклад, один проєкт працює тільки на старій версії Node.js, інший — на найновішій). Менеджер версій дозволяє швидко й безпечно перемикатися між ними під конкретну задачу.
@@ -64,6 +72,8 @@ Docker Compose version v5.5.1
 $ ssh -T git@github.com
 Hi mariexssin! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
+![Перевірка SSH-з'єднання з GitHub](assets/ssh-connection.png)
 
 **Чому приватний ключ ніколи не потрапляє в репозиторій?**
 Приватний ключ є секретом для автентифікації. Якщо він потрапить у репозиторій, сторонні люди отримають повний доступ до облікового запису та даних від вашого імені.
