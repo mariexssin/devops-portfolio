@@ -31,14 +31,14 @@ Node.js (fnm):
 
 ```text
 $ fnm use 20
-Using Node v20.18.0
+Using Node v20.20.2
 $ node -v
-v20.18.0
+v20.20.2
 
 $ fnm use --lts
-Using Node v22.12.0
+Using Node v24.20.0
 $ node -v
-v22.12.0
+v24.20.0
 ```
 
 ![Node.js fnm](assets/fnm-node.png)
@@ -47,7 +47,7 @@ Python (uv):
 
 ```text
 $ python3 --version
-Python 3.12.8
+Python 3.9.6
 ```
 
 ![Python uv](assets/uv-python.png)
